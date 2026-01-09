@@ -83,5 +83,19 @@ If you have any questions or need help with the contribution process, feel free 
 *   Open an issue on GitHub.
 *   Ask questions in the comments of relevant issues or pull requests.
 *   Join our [developer telegram group](https://t.me/openminddev).
+### **Pull Request Guidelines**
+
+To ensure a smooth review process, please follow these steps before submitting your PR:
+
+1. **Use the PR Template:** Fill out all sections of the PR template, including **Overview**, **Changes**, **Testing**, and **Impact**.
+2. **One Change Per PR:** Keep your PRs focused. If you have multiple unrelated changes, please open separate PRs.
+3. **Link to Issues:** Always reference the issue number your PR addresses (e.g., `Fixes #1080`).
+4. **Clean Builds:** Ensure your contribution does not introduce any CI/CD errors or unnecessary workflow files.
+
+### **Contribution Checklist**
+- [ ] Fork the repository and create your branch from `main`.
+- [ ] Ensure all documentation is updated and clear.
+- [ ] Verify that there are no sensitive files or automated workflow changes (e.g., `.yml` in `.github/workflows`) unless requested.
+- [ ] Test your changes thoroughly.
 
 Thank you for contributing to OM1!
